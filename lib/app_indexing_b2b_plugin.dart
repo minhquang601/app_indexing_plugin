@@ -11,12 +11,12 @@ class AppIndexingB2bPlugin {
   Future<void> addProductToAppindexing({
     @required productName,
     @required query,
-    @required desc
+    @required url
   }) async {
     var agrs = <String, dynamic>{
       'name': productName ?? '',
       'query' : query ?? '',
-      'desc' : desc ?? ''
+      'url' : url ?? ''
     };
 
     return _channel.invokeMethod('updateIndexing', agrs);

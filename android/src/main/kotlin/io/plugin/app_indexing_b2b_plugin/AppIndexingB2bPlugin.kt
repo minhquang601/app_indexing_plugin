@@ -25,7 +25,6 @@ class AppIndexingB2bPlugin(registrar: Registrar) : MethodCallHandler {
     val type: Type = object : TypeToken<MutableList<ProductEntity?>?>() {}.type
 
     var firebaseAppIndex: FirebaseAppIndex = FirebaseAppIndex.getInstance();
-    val BASE_URL = Uri.parse("https://merchant.vinid.net/ordering/")
     private lateinit var channel: MethodChannel
     private var pref: SharedPreferences = registrar.activeContext().getSharedPreferences("PREF_APP_INDEXING", MODE_PRIVATE)
 
@@ -47,6 +46,8 @@ class AppIndexingB2bPlugin(registrar: Registrar) : MethodCallHandler {
     private fun updateIndexing(call: MethodCall, result: Result) {
         var productName = call.argument("name") as? String
         var query = call.argument("query") as? String
+        var url = call.argument("url") as? String
+        val BASE_URL = Uri.parse(url)
 
         val appUri = BASE_URL.buildUpon()
                 .appendPath("search?query=$query")
