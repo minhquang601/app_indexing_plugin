@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "875217673432",
+    "firebase_url": "https://vinid-fb-merchant-nonprod.firebaseio.com",
+    "project_id": "vinid-fb-merchant-nonprod",
+    "storage_bucket": "vinid-fb-merchant-nonprod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875217673432:android:345228318c03b158",
+        "android_client_info": {
+          "package_name": "com.vingroup.VinIDMerchantApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qp0rdi4gaX-RgYCyA-qLuB5nhU_xCpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "875217673432-phokc60n8lecsvg8o2r5gi3uv7lhe45j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.vinid.b2b.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875217673432:android:7a7384bfb8afe90b5e8bad",
+        "android_client_info": {
+          "package_name": "com.vingroup.VinIDMerchantApp.QC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875217673432-b8ticgnrvvrdmukcuatnm5c43lf5s12p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vingroup.VinIDMerchantApp.QC",
+            "certificate_hash": "217ede15ee2650b70c80e12ccbbf41637c68d4c8"
+          }
+        },
+        {
+          "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qp0rdi4gaX-RgYCyA-qLuB5nhU_xCpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "875217673432-phokc60n8lecsvg8o2r5gi3uv7lhe45j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.vinid.b2b.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875217673432:android:3f06a176b85bd0985e8bad",
+        "android_client_info": {
+          "package_name": "com.vingroup.VinIDMerchantApp.UAT"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875217673432-s7od9cvld68b5ujmtdk8gk61qcmshde6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vingroup.VinIDMerchantApp.UAT",
+            "certificate_hash": "217ede15ee2650b70c80e12ccbbf41637c68d4c8"
+          }
+        },
+        {
+          "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qp0rdi4gaX-RgYCyA-qLuB5nhU_xCpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875217673432-pivmn8v1lumj73rlotcibrgostemveic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "875217673432-phokc60n8lecsvg8o2r5gi3uv7lhe45j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.vinid.b2b.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
